@@ -61,7 +61,7 @@ function App() {
             </h1>
           </div>
           <p className="text-center text-slate-600 text-xs sm:text-sm mt-2">
-            Instant translation powered by AI
+            Instant translation provided
           </p>
         </div>
       </header>
@@ -176,32 +176,7 @@ function App() {
           </div>
         </div>
 
-        {/* Features */}
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 mt-8 sm:mt-12">
-          <div className="bg-white p-4 sm:p-6 rounded-xl sm:rounded-2xl border border-indigo-100 hover:shadow-lg hover:shadow-indigo-100/50 transition-all">
-            <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-indigo-100 to-purple-100 rounded-xl flex items-center justify-center mb-3 sm:mb-4">
-              <Languages className="w-5 h-5 sm:w-6 sm:h-6 text-indigo-600" />
-            </div>
-            <h3 className="font-semibold text-slate-800 mb-1 sm:mb-2 text-sm sm:text-base">Multi-Language</h3>
-            <p className="text-xs sm:text-sm text-slate-600">Support for multiple languages with accurate translations</p>
-          </div>
-          
-          <div className="bg-white p-4 sm:p-6 rounded-xl sm:rounded-2xl border border-indigo-100 hover:shadow-lg hover:shadow-indigo-100/50 transition-all">
-            <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-indigo-100 to-purple-100 rounded-xl flex items-center justify-center mb-3 sm:mb-4">
-              <ArrowRight className="w-5 h-5 sm:w-6 sm:h-6 text-indigo-600" />
-            </div>
-            <h3 className="font-semibold text-slate-800 mb-1 sm:mb-2 text-sm sm:text-base">Instant Results</h3>
-            <p className="text-xs sm:text-sm text-slate-600">Get your translations in seconds with AI-powered technology</p>
-          </div>
-          
-          <div className="bg-white p-4 sm:p-6 rounded-xl sm:rounded-2xl border border-indigo-100 hover:shadow-lg hover:shadow-indigo-100/50 transition-all">
-            <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-indigo-100 to-purple-100 rounded-xl flex items-center justify-center mb-3 sm:mb-4">
-              <Copy className="w-5 h-5 sm:w-6 sm:h-6 text-indigo-600" />
-            </div>
-            <h3 className="font-semibold text-slate-800 mb-1 sm:mb-2 text-sm sm:text-base">Easy to Use</h3>
-            <p className="text-xs sm:text-sm text-slate-600">Simple interface with one-click copy functionality</p>
-          </div>
-        </div>
+        
       </main>
 
       {/* Footer */}
@@ -213,3 +188,5 @@ function App() {
 }
 
 export default App;
+
+
